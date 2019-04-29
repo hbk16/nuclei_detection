@@ -19,7 +19,7 @@ The ROC curves of classification of lymphcyte/epithelial (L vs. BM) and benign/m
 <img src="fig/roc-lvsbm.png"  width=400><img src="fig/roc-bvsm.png"  width=400><br>
 
 Examples of nuclei segmentation and detection:<br><br>
-<img src="fig/detection1.tif"  width=800><br><img src="fig/detection2.tif"  width=800><br>
+<img src="fig/detection1.png"  width=800><br><img src="fig/detection2.png"  width=800><br>
 
 The accuracy, sensitivity and specificity of nuclei classification on the test set:
 
