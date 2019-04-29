@@ -1,6 +1,6 @@
 ```
 
-NOTE: This repository is under construction. The code will be available by the publication of the paper.
+NOTE: This repository is under construction. The code will be available by the publication of the paper [[Pei et al.]](#references).
 
 ```
 
