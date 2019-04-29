@@ -30,7 +30,7 @@ The accuracy, sensitivity and specificity of nuclei classification on the test s
 |Malignant|0.890|0.927|0.802|
 
 This implementation got ICC of 0.76 [0.69, 0.81], Kendall's tau-b of 0.57 [0.49, 0.63] and 
-Prediction Probability (the metric adapted by the challenge organizer) of 0.79 [0.75, 0.82] on the validation set.
+Prediction Probability (the metric adopted by the challenge organizer) of 0.79 [0.75, 0.82] on the validation set.
 
 ## Dependencies
 Python3  
