@@ -107,7 +107,7 @@ Please note that the training images should be copied to `data/corr/` (for the p
     python3 classify.py --opt bvsm
     ```
     The SVMs will be pickled to `segmentation&classification/model/`, along with the ROC curves of 5-fold cross validation.
-10. To validate the models on the test set, run:
+10. To validate the models on the validation set, run:
     ```
     python3 classify.py --opt validate
     ```
