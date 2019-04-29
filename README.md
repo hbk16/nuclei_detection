@@ -36,7 +36,7 @@ Prediction Probability (the metric adopted by the challenge organizer) of 0.79 [
 Python3  
 [Scikit-images](https://scikit-image.org/)  
 [OpenCV](https://pypi.org/project/opencv-python/)  
-[MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab-engine-for-python.html)  
+[MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)  
 [GLCM_Features4](https://ww2.mathworks.cn/matlabcentral/fileexchange/22354-glcm_features4-m-vectorized-version-of-glcm_features1-m-with-code-changes)
 (Make sure that the function `GLCM_Features4` is within your MATLAB Path)  
 [Scikit-learn](https://scikit-learn.org)  
