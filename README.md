@@ -52,7 +52,7 @@ corresponding directories in `data/` as instructed by the `readme.md` files.
 Please note that the training images should be copied to `data/corr/` (for the purpose of linear correction).
 2.  To segment the nuclei for all the images, run:
     ```
-    python3 peikari.py --phase train val corr --precomputed_threshold
+    python3 peikari.py --phase cells val corr --precomputed_threshold
     ```
     The segmentation mask of each phase will be stored in `segmentation&classification/PHASE/seg.npy`. 
     In each mask, the the background is denoted by 0 and the region of each nuclus is denoted by a specific positive integer.  
