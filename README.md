@@ -5,23 +5,25 @@ NOTE: This repository is under construction. The code will be available by the p
 ```
 
 # Nuclei detection in histology images
-This is our implementation of the method proposed in [[Peikari et al.]](#references).
+This is our implementation of the nuclei detection method proposed in [[Peikari et al.]](#references). 
+The objective is to assess the cellularity of any given hematoxylin and eosin (H&E) stained histopathology image of breast cancer.  
+For our method of direct cellularity assessment, please visit https://github.com/hbk16/BreastPathQ.
 
 ## Overview
 The detection is comprised of two parts: segmentation and classification. 
 The segmentation is based on color deconvolution, multi-level Otsu thresholding and marker-controlled watershed.
-Classification of individual nuclei is based on SVM using shape, intensity and texture features.
+Classification of individual nuclei is based on SVMs trained using shape, intensity and texture features.
 
 ## Data
 The data is provided as a part of the SPIE-AAPM-NCI BreastPathQ: Cancer Cellularity Challenge 
 (http://spiechallenges.cloudapp.net/competitions/14 or https://breastpathq.grand-challenge.org/).
 
 ## Results
-The ROC curves of classification of lymphcyte/epithelial (L vs. BM) and benign/malianant (B vs. M):<br><br>
+The ROC curves of the classification of lymphcyte/epithelial (L vs. BM) and benign/malianant (B vs. M):<br><br>
 <img src="fig/roc-lvsbm.png"  width=400><img src="fig/roc-bvsm.png"  width=400><br>
 
 Examples of nuclei segmentation and detection:<br><br>
-<img src="fig/detection1.png"  width=800><br><img src="fig/detection2.png"  width=800><br>
+<img src="fig/detection1.png"  width=768><br><img src="fig/detection2.png"  width=768><br>
 
 The accuracy, sensitivity and specificity of nuclei classification on the test set:
 
@@ -45,7 +47,8 @@ Python3
 Standard scientific Python stack: `NumPy, Pandas, SciPy, Matplotlib`
 
 ## How to run
-1.  Download the dataset from  http://spiechallenges.cloudapp.net/competitions/14 and copy the images to the corresponding directories in `data/`.
+1.  Download the dataset from  http://spiechallenges.cloudapp.net/competitions/14 and copy the images to the 
+corresponding directories in `data/` as instructed by the `readme.md` files.
 Please note that the training images should be copied to `data/corr/` (for the purpose of linear correction).
 2.  To segment the nuclei for all the images, run:
     ```
