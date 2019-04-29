@@ -16,7 +16,7 @@ The data is provided as a part of the SPIE-AAPM-NCI BreastPathQ: Cancer Cellular
 
 ## Results
 The ROC curves of classification of lymphcyte/epithelial (L vs. BM) and benign/malianant (B vs. M):<br><br>
-<img src="fig/roc_lvsbm.png"  width=400><img src="fig/roc_bvsm.png"  width=400><br>
+<img src="fig/roc-lvsbm.png"  width=400><img src="fig/roc-bvsm.png"  width=400><br>
 
 Examples of nuclei segmentation and detection:<br><br>
 <img src="fig/detection1.tif"  width=800><br><img src="fig/detection2.tif"  width=800><br>
