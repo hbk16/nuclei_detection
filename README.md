@@ -1,9 +1,3 @@
-```
-
-NOTE: This repository is under construction. The code will be available by the publication of the paper [Pei et al.].
-
-```
-
 # Nuclei detection in histology images
 This is our implementation of the nuclei detection method proposed in [[Peikari et al.]](#references). 
 The objective is to assess the cellularity of any given hematoxylin and eosin (H&E) stained histopathology image of breast cancer.  
@@ -37,14 +31,15 @@ For cellularity assessment, this implementation got ICC of 0.76 [0.69, 0.81], Ke
 Prediction Probability (the metric adopted by the challenge organizer) of 0.79 [0.75, 0.82] on the validation set.
 
 ## Dependencies
-Python3  
+Python3.5  
 [Scikit-images](https://scikit-image.org/)  
 [OpenCV](https://pypi.org/project/opencv-python/)  
 [MATLAB Engine API for Python](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)  
 [GLCM_Features4](https://ww2.mathworks.cn/matlabcentral/fileexchange/22354-glcm_features4-m-vectorized-version-of-glcm_features1-m-with-code-changes)
 (Make sure that the function `GLCM_Features4` is within your MATLAB Path)  
 [Scikit-learn](https://scikit-learn.org)  
-Standard scientific Python stack: `NumPy, Pandas, SciPy, Matplotlib`
+Standard scientific Python stack: `NumPy, Pandas, SciPy, Matplotlib`  
+(Make sure that you are using the latest version compatible with Python3.5)
 
 ## How to run
 1.  Download the dataset from  http://spiechallenges.cloudapp.net/competitions/14 and copy the images to the 
