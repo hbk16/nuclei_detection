@@ -1,0 +1,1 @@
+Place the images and annotations (`xml` files) from the folder `cells` here.
